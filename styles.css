@@ -1,0 +1,176 @@
+.header {
+    background-image: url("img/coding-bg.jpg");
+    width: 100%;
+    height: auto;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.main-header {
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+width: auto;
+padding: 20px;
+}   
+.main-header .name {
+    color: white;
+    text-decoration: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+body {
+margin: 0px;    
+}
+
+.img .profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.about-text {
+    padding: 30px;
+    width: 50%;
+    
+}
+.about-main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 20px;   
+    width: 80%;
+    gap: 50px;
+}
+.about-img .about-me-img {
+    width: 250px;
+    height: auto;
+    border-radius: 120px 25px 25px 50px;
+    -webkit-border-radius: 120px 25px 25px 50px;
+    -moz-border-radius: 120px 25px 25px 50px;
+    -ms-border-radius: 120px 25px 25px 50px;
+    -o-border-radius: 120px 25px 25px 50px;
+}
+.about {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-main {
+    display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 50px;
+        margin-left: 150px;
+}
+.skills-main div {
+    background-color: rgba(0, 98, 168, 0.882);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 16px;
+    text-decoration: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-me-main .name {
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+
+}
+.contact-me-main label {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(30, 116, 178);
+    padding: 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.contact-me-main input {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 0px;
+    padding: 5px;
+}
+.contact-me {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.contact-mepmain form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 25px;
+    
+}
+.contact-me-main .email {
+
+    display: flex
+;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-me-main .textarea {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me-main form {
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.textarea button {
+    padding: 5px 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.textarea button:hover {
+    background-color: rgb(30, 116, 178);
+    color: white;
+
+}
+.footer {
+    background-color: rgb(30, 116, 178);
+}
+body {
+    font-family: cursive;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
